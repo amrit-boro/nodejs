@@ -1,5 +1,5 @@
-const run = () => {
-  console.log('Hello World!');
-};
+import { selectionSort } from './sortingAlgo.js';
 
-run();
+// Example usage
+let array = [64, 34, 25, 12, 22, 11, 90];
+console.log('Sorted array:', selectionSort(array));
